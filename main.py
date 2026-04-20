@@ -9,7 +9,7 @@ symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 print("Welcome to the PyPassword Generator!")
 nr_letters= (input("How many letters would you like in your password?\n")) #enter how many words of password you want
 nr_symbols = (input(f"How many symbols would you like?\n")) #enter how many symbols used
-nr_numbers = (input(f"How many numbers would you like?\n")) #
+nr_numbers = (input(f"How many numbers would you like?\n")) #enter how many integers value present in password
 
 if not nr_letters.isdigit() or not nr_symbols.isdigit() or not nr_numbers.isdigit():
   print("Invalid value, enter a number instead.")
