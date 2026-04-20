@@ -37,6 +37,6 @@ else:
   if len(password) <= 6:
     print("Your password is weak, try to include at least 8 characters for a stronger password.") #if the password weak its present
   elif len(password) == 7:
-    print("Your password is medium, try to include at least 8 characters for a stronger password.")
+    print("Your password is medium, try to include at least 8 characters for a stronger password.")  #if the password medium its present
   else:
     print("Your password is strong.")
