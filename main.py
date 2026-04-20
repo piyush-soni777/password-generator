@@ -33,7 +33,7 @@ else:
 
   random.shuffle(password)
   print(f"Here is your password: {''.join(password)}")
-
+#condition:-
   if len(password) <= 6:
     print("Your password is weak, try to include at least 8 characters for a stronger password.")
   elif len(password) == 7:
