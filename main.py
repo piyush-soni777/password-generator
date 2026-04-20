@@ -40,3 +40,11 @@ else:
     print("Your password is medium, try to include at least 8 characters for a stronger password.")  #if the password medium its present
   else:
     print("Your password is strong.")  #if the password very strong its present
+
+
+
+
+#Using the for loop with Python Lists
+#For loops and the range() function
+
+#made by piyushSoni...
